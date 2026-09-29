@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Js Project</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="card">
+        <h1 class="heading">Text To Speech...</h1>
+
+        <div class="subContainer">
+
+      
+        <form id="form" onsubmit="handleSubmit(event)">
+          <textarea
+          style="word-wrap: break-word;"
+          
+            rows="10"
+            id="textArea"
+            placeholder="Enter your Sentence here..."
+          ></textarea>
+          <!-- <button type="submit">Click Me To Show</button> -->
+          <button class="button-5" role="button">
+            <span class="text">Click Me To Show</span>
+          </button>
+        </form>
+        <div class="countArea">
+          <div class="alpha">
+            <p>A</p>
+            <p id="Acount"> 00 </p>
+          </div>
+          <div class="alpha">
+            <p>B</p>
+            <p id="Bcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>C</p>
+            <p id="Ccount"> 00 </p>
+          </div>
+          <div class="alpha">
+            <p>D</p>
+            <p id="Dcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>E</p>
+            <p id="Ecount">00</p>
+          </div>
+          <div class="alpha">
+            <p>F</p>
+            <p id="Fcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>G</p>
+            <p id="Gcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>H</p>
+            <p id="Hcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>I</p>
+            <p id="Icount">00</p>
+          </div>
+          <div class="alpha">
+            <p>J</p>
+            <p id="Jcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>K</p>
+            <p id="Kcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>L</p>
+            <p id="Lcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>M</p>
+            <p id="Mcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>N</p>
+            <p id="Ncount">00</p>
+          </div>
+          <div class="alpha">
+            <p>O</p>
+            <p id="Ocount">00</p>
+          </div>
+          <div class="alpha">
+            <p>P</p>
+            <p id="Pcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>Q</p>
+            <p id="Qcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>R</p>
+            <p id="Rcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>S</p>
+            <p id="Scount">00</p>
+          </div>
+          <div class="alpha">
+            <p>T</p>
+            <p id="Tcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>U</p>
+            <p id="Ucount">00</p>
+          </div>
+          <div class="alpha">
+            <p>V</p>
+            <p id="Vcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>W</p>
+            <p id="Wcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>X</p>
+            <p id="Xcount">00</p>
+          </div>
+          <div class="alpha">
+            <p>Y</p>
+            <p id="Ycount">00</p>
+          </div>
+          <div class="alpha">
+            <p>Z</p>
+            <p id="Zcount">00</p>
+          </div>
+        </div>
+        <div class="specialCount">
+          <button>Letter : <span id="letterCount"> 00 </span></button>
+          <button>Word : <span id="wordsCount"> 00 </span></button>
+          <!-- <button>Lines : <span id="linesCount"> 01 </span></button> -->
+          <button id="speak-button">Click Me To Speech <span id="speech"> <i class="fa-solid fa-volume-high"></i> </span></button>
+        </div>
+
+      </div>
+
+      </section>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
